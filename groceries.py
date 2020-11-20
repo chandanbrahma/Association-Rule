@@ -1,7 +1,7 @@
 
 
 
-##importing the dataset
+##importing the dataset 
 with open("E:\\python\\association rule\\groceries.csv","r") as f:
     groceries = f.read()
    
