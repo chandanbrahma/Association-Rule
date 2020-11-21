@@ -1,4 +1,4 @@
-
+⁷
 
 
 ##importing the dataset 
@@ -15,7 +15,7 @@ for i in groceries:
     groceries_list.append(i.split(","))
     
     
-import pandas as pd
+import pandas as pd 
 ## converting into a series 
 groceries_series  = pd.DataFrame(pd.Series(groceries_list))
  
