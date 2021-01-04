@@ -20,7 +20,7 @@ rule3= association_rules(frequent_books, metric='lift', min_threshold=6)
 
 
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
 ##support vs confidence
 plt.scatter(rule1['support'], rule1['confidence'], alpha=0.8)
