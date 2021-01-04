@@ -32,7 +32,7 @@ frequent_items.head()
 frequent_items.shape
     
 
-##applying association rule
+##applying association rule 
 rule1= association_rules(frequent_items, metric='confidence', min_threshold=0.07)
 rule2= association_rules(frequent_items, metric='support',min_threshold=0.02)
 rule3= association_rules(frequent_items, metric='lift', min_threshold=0.8)
