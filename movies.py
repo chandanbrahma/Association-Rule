@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import pandas as pd  
+import pandas as pd   
 
 ##importing dataset
 movies= pd.read_csv('E:\\assignment\\assocation\\my_movies.csv')
